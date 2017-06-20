@@ -1,18 +1,20 @@
 # PathTorture
-This is a collection of test files for the FreeCAD Path workbench.  The repository has the following structure
+This is a collection of test files for the FreeCAD Path workbench. It came from a discussion on a [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=15&t=20378)  The repository has the following structure
 
 ####  root directory contains the FreeCAD project source files
 
-#### rustlers:  Basic test shapes.  Simple files that should always generate a
-shape.  
+#### rustlers
+Basic test shapes.  Simple files that should always generate a shape.  
 
-#### cutthroats:  Test shapes with difficult geometry. Bsplines, ellipses, etc.
+#### cutthroats
+Test shapes with difficult geometry. Bsplines, ellipses, etc.
 
-#### murderers: Test shapes with unusual characteristics other than geometry.
-Position, Arrays, Panels, etc.
+#### murderers
+Test shapes with unusual characteristics other than geometry.
+Position, Arrays, Clones, Panels, etc.
 
-#### methodists:  Test shapes or projects that we can't currently handle
-correctly.
+#### methodists
+The ones that keep us up at night.  Test shapes or projects that we can't currently handle correctly.
 
 Rustlers and cuthroats can be either FreeCAD project files (.fcstd) or shapes
 (.brep, .stp, .iges)
