@@ -3,7 +3,7 @@ This is a collection of test files for the FreeCAD Path workbench. It came from 
 
 
 #### rustlers
-Basic test shapes.  Simple files that should always generate a shape.  
+Basic test shapes.  Simple files that should always generate a shape. 
 
 #### cutthroats
 Test shapes with difficult geometry. Bsplines, ellipses, etc.
@@ -19,4 +19,7 @@ Rustlers and cuthroats can be either FreeCAD project files (.fcstd) or shapes
 (.brep, .stp, .iges)
 
 Murderers and methodists should be only FreeCAD project files.
+
+
+Files should generally be saved without a Path Project, tools or operations.
 
